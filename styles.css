@@ -3,6 +3,11 @@
 }
 
 .red-text {
-  color: rgb(255, 0, 0);
+  color: #f00;
   font-size: 20px;
+}
+.red-tex {
+	color: #f00;
+	font-size: 20px;
+}
 }
