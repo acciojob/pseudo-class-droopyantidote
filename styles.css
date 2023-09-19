@@ -1,13 +1,22 @@
 #container {
   margin: 20px;
+  position: relative; /* Needed for absolute positioning */
 }
 
-.red-text {
-  color: #f00;
+#container::before,
+#container::after {
+ 
+  color: #f00; /* Red color */
   font-size: 20px;
+  position: absolute;
 }
-.red-tex {
-	color: #f00;
-	font-size: 20px;
+
+#container::before {
+  left: 0;
+  top: 0;
 }
+
+#container::after {
+  right: 0;
+  bottom: 0;
 }
